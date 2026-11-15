@@ -1,0 +1,11 @@
+====================================================
+       COMMENT RECOGNITION LEXICAL ANALYZER         
+====================================================
+// This is a single line comment    -> VALID SINGLE-LINE COMMENT
+/* This is a multi line comment */  -> VALID MULTI-LINE COMMENT
+int a = 10;                         -> NOT A COMMENT
+printf("Hello, World!");            -> NOT A COMMENT
+// Another single comment here      -> VALID SINGLE-LINE COMMENT
+/* Function definition ends */      -> VALID MULTI-LINE COMMENT
+return 0;                           -> NOT A COMMENT
+----------------------------------------------------

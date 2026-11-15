@@ -1,0 +1,7 @@
+student@saveetha.com
+rahul.kumar_99@gmail.in
+invalid-email.com
+user@.com
+admin@college.edu
+@missingname.org
+

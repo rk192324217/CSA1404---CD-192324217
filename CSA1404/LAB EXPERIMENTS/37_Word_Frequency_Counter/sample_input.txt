@@ -1,0 +1,2 @@
+A compiler translates source code, and an optimizing compiler produces fast target code for the compiler backend.
+

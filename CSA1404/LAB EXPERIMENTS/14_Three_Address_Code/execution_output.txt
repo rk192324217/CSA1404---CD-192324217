@@ -1,0 +1,17 @@
+====================================================
+      INTERMEDIATE CODE: THREE ADDRESS CODE (TAC)   
+====================================================
+Input Statement: a = b + c * d
+Three Address Code:
+  t1 = c * d
+  t2 = b + t1
+  a = t2
+----------------------------------------------------
+Input Statement: x = (a + b) * (c - d) / e
+Three Address Code:
+  t1 = a + b
+  t2 = c - d
+  t3 = t1 * t2
+  t4 = t3 / e
+  x = t4
+----------------------------------------------------

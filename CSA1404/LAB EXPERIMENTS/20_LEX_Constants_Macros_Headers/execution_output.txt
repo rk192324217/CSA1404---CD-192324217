@@ -1,0 +1,14 @@
+====================================================
+  LEX: CONSTANTS, MACROS & HEADER FILES IDENTIFIER  
+====================================================
+MACRO DEFINED     : #define PI
+FLOAT CONSTANT    : 3.14
+HEADER INCLUDED   : #include<stdio.h>
+HEADER INCLUDED   : #include<conio.h>
+INTEGER CONSTANT  : 30
+STRING CONSTANT   : "hello"
+----------------------------------------------------
+Total Constants Identified   : 3
+Number of Macros Defined     : 1
+Number of Header Files       : 2
+----------------------------------------------------

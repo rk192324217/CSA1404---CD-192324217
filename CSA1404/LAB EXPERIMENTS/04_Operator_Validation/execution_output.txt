@@ -1,0 +1,13 @@
+====================================================
+       ARITHMETIC OPERATOR VALIDATOR (+,-,*,/)      
+====================================================
++               -> VALID ARITHMETIC OPERATOR (Addition)
+-               -> VALID ARITHMETIC OPERATOR (Subtraction)
+*               -> VALID ARITHMETIC OPERATOR (Multiplication)
+/               -> VALID ARITHMETIC OPERATOR (Division)
+%               -> INVALID ARITHMETIC OPERATOR
+++              -> INVALID ARITHMETIC OPERATOR
+=               -> INVALID ARITHMETIC OPERATOR
+@               -> INVALID ARITHMETIC OPERATOR
+----------------------------------------------------
+Valid operators: 4 | Invalid inputs: 4

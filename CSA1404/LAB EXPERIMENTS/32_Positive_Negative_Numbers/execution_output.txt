@@ -1,0 +1,14 @@
+====================================================
+     POSITIVE AND NEGATIVE NUMBERS COUNTER (LEX)    
+====================================================
+10              -> POSITIVE NUMBER
+-25             -> NEGATIVE NUMBER
+3.14            -> POSITIVE NUMBER
+-0.75           -> NEGATIVE NUMBER
++42             -> POSITIVE NUMBER
+-100            -> NEGATIVE NUMBER
+7               -> POSITIVE NUMBER
+99              -> POSITIVE NUMBER
+-8              -> NEGATIVE NUMBER
+----------------------------------------------------
+Positive Numbers: 5 | Negative Numbers: 4

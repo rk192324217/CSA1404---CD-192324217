@@ -1,0 +1,12 @@
+====================================================
+  CLEANED CODE (SPACES, TABS, NEWLINES & COMMENTS)  
+====================================================
+#include <stdio.h>
+int main( ) {
+int a = 10;
+int b = 20; 
+printf( "Sum = %d\n", a + b );
+return 0;
+}
+----------------------------------------------------
+Summary: Comments ignored = 3 | Redundant spaces/tabs skipped = 38 | Blank lines skipped = 5

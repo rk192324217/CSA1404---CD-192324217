@@ -1,0 +1,7 @@
+====================================================
+       WORD FREQUENCY COUNTER IN A SENTENCE         
+====================================================
+Input File   : sample_input.txt
+Target Word  : 'compiler'
+Frequency    : 3
+----------------------------------------------------

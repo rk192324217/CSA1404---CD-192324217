@@ -1,0 +1,11 @@
+====================================================
+            EMAIL ADDRESS VALIDATOR (LEX)           
+====================================================
+student@saveetha.com           -> VALID EMAIL ADDRESS
+rahul.kumar_99@gmail.in        -> VALID EMAIL ADDRESS
+invalid-email.com              -> INVALID EMAIL ADDRESS
+user@.com                      -> INVALID EMAIL ADDRESS
+admin@college.edu              -> VALID EMAIL ADDRESS
+@missingname.org               -> INVALID EMAIL ADDRESS
+----------------------------------------------------
+Valid: 3 | Invalid: 3

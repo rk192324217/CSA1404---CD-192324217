@@ -1,0 +1,8 @@
+====================================================
+   LEX C PROGRAM COUNTER (IGNORING SPACES/COMMENTS) 
+====================================================
+Source File              : sample.c
+Number of Lines          : 10
+Number of Words/Tokens   : 33
+Number of Non-WS Chars   : 178
+----------------------------------------------------

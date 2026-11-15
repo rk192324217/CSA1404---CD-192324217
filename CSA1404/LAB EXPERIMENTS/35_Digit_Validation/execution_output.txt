@@ -1,0 +1,12 @@
+====================================================
+             DIGIT CHECKER (LEX PROGRAM)            
+====================================================
+7                  -> DIGIT / NUMERIC INPUT
+42                 -> DIGIT / NUMERIC INPUT
+3.14               -> DIGIT / NUMERIC INPUT
+abc                -> NOT A DIGIT
+12a                -> NOT A DIGIT
+@                  -> NOT A DIGIT
+0                  -> DIGIT / NUMERIC INPUT
+----------------------------------------------------
+Numeric/Digit Inputs: 4 | Non-Digit Inputs: 3

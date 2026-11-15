@@ -1,0 +1,11 @@
+====================================================
+           MOBILE NUMBER VALIDATOR (LEX)            
+====================================================
+9876543210         -> VALID MOBILE NUMBER
+7123456789         -> VALID MOBILE NUMBER
+5123456789         -> INVALID MOBILE NUMBER
+987654321          -> INVALID MOBILE NUMBER
+98765abc10         -> INVALID MOBILE NUMBER
+6000012345         -> VALID MOBILE NUMBER
+----------------------------------------------------
+Valid Numbers: 3 | Invalid Numbers: 3

@@ -1,0 +1,10 @@
+====================================================
+            VOWEL COUNTER IN A SENTENCE             
+====================================================
+Input Text:
+Compiler Design is an essential subject in Computer Science.
+
+----------------------------------------------------
+Number of Vowels     : 20
+Number of Consonants : 31
+----------------------------------------------------

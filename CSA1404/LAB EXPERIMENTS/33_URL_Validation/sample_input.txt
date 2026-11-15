@@ -1,0 +1,7 @@
+https://www.saveetha.com/csa1404
+http://compilerlab.edu.in
+ftp://files.example.org/notes
+htp://broken-url
+www.missing-protocol.com
+https://invalid_domain
+

@@ -1,0 +1,13 @@
+====================================================
+            IDENTIFIER VALIDATION ANALYZER          
+====================================================
+sum                  -> VALID IDENTIFIER
+_total_1             -> VALID IDENTIFIER
+123abc               -> INVALID IDENTIFIER
+my-var               -> INVALID IDENTIFIER
+while                -> INVALID IDENTIFIER (C Keyword)
+counter99            -> VALID IDENTIFIER
+@rate                -> INVALID IDENTIFIER
+validName            -> VALID IDENTIFIER
+----------------------------------------------------
+Valid Identifiers: 4 | Invalid Identifiers: 4

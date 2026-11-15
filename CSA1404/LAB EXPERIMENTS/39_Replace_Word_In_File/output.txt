@@ -1,0 +1,1 @@
+The compiler parser checks syntax, and the compiler optimizer improves target efficiency.

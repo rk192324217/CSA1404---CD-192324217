@@ -1,0 +1,5 @@
+Compiler design bridges high-level languages and machine code.
+Lexical analysis converts source characters into tokens.
+Syntax and semantic analysis validate program structure.
+Code generation produces target assembly instructions.
+

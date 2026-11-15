@@ -1,0 +1,31 @@
+========================================================
+     BOTTOM-UP SHIFT-REDUCE PARSER (GRAMMAR CHECK)      
+========================================================
+Grammar: E -> E+E | E*E | (E) | id
+
+Parsing String: id+id*id
+STACK              INPUT              ACTION              
+--------------------------------------------------------
+id                 +id*id             SHIFT id
+E                                     REDUCE E -> id
+E+                 id*id              SHIFT +
+E+id               *id                SHIFT id
+E+E                                   REDUCE E -> id
+E                                     REDUCE E -> E+E
+E*                 id                 SHIFT *
+E*id                                  SHIFT id
+E*E                                   REDUCE E -> id
+E                                     REDUCE E -> E*E
+RESULT: 'id+id*id' -> ACCEPTED (Satisfies Grammar)
+
+Parsing String: id+*id
+STACK              INPUT              ACTION              
+--------------------------------------------------------
+id                 +*id               SHIFT id
+E                                     REDUCE E -> id
+E+                 *id                SHIFT +
+E+*                id                 SHIFT *
+E+*id                                 SHIFT id
+E+*E                                  REDUCE E -> id
+RESULT: 'id+*id' -> REJECTED (Does not satisfy Grammar)
+========================================================

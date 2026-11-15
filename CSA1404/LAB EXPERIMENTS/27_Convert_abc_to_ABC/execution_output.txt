@@ -1,0 +1,9 @@
+====================================================
+      CONVERT SUBSTRING 'abc' TO 'ABC' (LEX)        
+====================================================
+Converted Output:
+hello ABC world!
+ABCtestABC123
+compiler design ABC lab
+----------------------------------------------------
+Total 'abc' -> 'ABC' conversions: 4

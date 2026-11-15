@@ -1,0 +1,2 @@
+Lexical analysis splits source code into meaningful tokens.
+

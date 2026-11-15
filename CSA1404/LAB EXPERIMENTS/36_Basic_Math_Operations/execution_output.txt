@@ -1,0 +1,10 @@
+====================================================
+      BASIC MATHEMATICAL OPERATIONS (LEX)           
+====================================================
+15 + 25            = 40.00 (Addition)
+40 - 12            = 28.00 (Subtraction)
+8 * 7              = 56.00 (Multiplication)
+45 / 5             = 9.00 (Division)
+10 / 0             -> ERROR: Division by zero
+5 @ 3              -> INVALID EXPRESSION
+----------------------------------------------------

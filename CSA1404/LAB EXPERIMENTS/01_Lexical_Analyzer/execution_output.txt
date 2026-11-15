@@ -1,0 +1,45 @@
+====================================================
+         LEXICAL ANALYZER (C IMPLEMENTATION)        
+====================================================
+TOKEN                CATEGORY            
+----------------------------------------------------
+#include             PREPROCESSOR        
+<                    OPERATOR            
+stdio                IDENTIFIER          
+h                    IDENTIFIER          
+>                    OPERATOR            
+int                  KEYWORD             
+main                 IDENTIFIER          
+(                    DELIMITER           
+)                    DELIMITER           
+{                    DELIMITER           
+int                  KEYWORD             
+number1              IDENTIFIER          
+=                    OPERATOR            
+10                   INTEGER CONSTANT    
+;                    DELIMITER           
+float                KEYWORD             
+sum                  IDENTIFIER          
+=                    OPERATOR            
+25.5                 FLOAT CONSTANT      
+;                    DELIMITER           
+if                   KEYWORD             
+(                    DELIMITER           
+number1              IDENTIFIER          
+>=                   OPERATOR            
+5                    INTEGER CONSTANT    
+)                    DELIMITER           
+{                    DELIMITER           
+sum                  IDENTIFIER          
+=                    OPERATOR            
+sum                  IDENTIFIER          
++                    OPERATOR            
+number1              IDENTIFIER          
+;                    DELIMITER           
+}                    DELIMITER           
+return               KEYWORD             
+0                    INTEGER CONSTANT    
+;                    DELIMITER           
+}                    DELIMITER           
+----------------------------------------------------
+Lexical analysis complete.

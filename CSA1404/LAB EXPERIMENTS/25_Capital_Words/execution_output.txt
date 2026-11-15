@@ -1,0 +1,11 @@
+====================================================
+          IDENTIFY CAPITAL WORDS (LEX)              
+====================================================
+Capital Word 1: SAVEETHA
+Capital Word 2: ENGINEERING
+Capital Word 3: COMPILER
+Capital Word 4: DESIGN
+Capital Word 5: FLEX
+Capital Word 6: GCC
+----------------------------------------------------
+Total Capital Words Found: 6

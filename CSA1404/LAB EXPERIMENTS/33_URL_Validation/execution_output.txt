@@ -1,0 +1,11 @@
+====================================================
+               URL VALIDATOR (LEX)                  
+====================================================
+https://www.saveetha.com/csa1404     -> VALID URL
+http://compilerlab.edu.in            -> VALID URL
+ftp://files.example.org/notes        -> VALID URL
+htp://broken-url                     -> INVALID URL
+www.missing-protocol.com             -> INVALID URL
+https://invalid_domain               -> INVALID URL
+----------------------------------------------------
+Valid URLs: 3 | Invalid URLs: 3

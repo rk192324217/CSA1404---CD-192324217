@@ -1,0 +1,8 @@
+====================================================
+    LEXICAL ANALYZER: FILE CHAR/WORD/LINE COUNTER   
+====================================================
+File Analyzed    : sample_input.txt
+Total Characters : 232
+Total Words      : 28
+Total Lines      : 4
+----------------------------------------------------

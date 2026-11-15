@@ -1,0 +1,17 @@
+====================================================
+       COMPILER BACK END (TARGET CODE GENERATOR)    
+====================================================
+Generating 8086/Register Assembly from Three-Address Code:
+----------------------------------------------------
+; TAC: t1 = b * c
+  MOV R0, b
+  MUL R0, c
+  MOV t1, R0
+; TAC: t2 = a + t1
+  MOV R1, a
+  ADD R1, t1
+  MOV t2, R1
+; TAC: d = t2
+  MOV R2, t2
+  MOV d, R2
+----------------------------------------------------

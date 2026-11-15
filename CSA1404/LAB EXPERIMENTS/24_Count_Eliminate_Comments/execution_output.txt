@@ -1,0 +1,18 @@
+====================================================
+     COUNT & ELIMINATE COMMENTS FROM C PROGRAM      
+====================================================
+Number of comment lines removed: 2
+Output written to: output.c
+----------------------------------------------------
+Contents of output.c:
+#include<stdio.h>
+int main()
+{
+int a,b,c; 
+printf("enter two numbers");
+scanf("%d %d",&a,&b);
+c=a+b;
+printf("sum is %d",c);
+return 0;
+}
+----------------------------------------------------

@@ -1,0 +1,12 @@
+====================================================
+         DATE OF BIRTH (DOB) VALIDATOR (LEX)        
+====================================================
+15/08/2004         -> VALID DOB
+29/02/2004         -> VALID DOB
+29/02/2005         -> INVALID DOB (Calendar out of range)
+31/04/2003         -> INVALID DOB (Calendar out of range)
+12/13/2002         -> INVALID DOB (Calendar out of range)
+2004-08-15         -> INVALID DOB (Format must be DD/MM/YYYY)
+01/01/2006         -> VALID DOB
+----------------------------------------------------
+Valid DOBs: 3 | Invalid DOBs: 4

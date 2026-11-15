@@ -1,0 +1,11 @@
+INSERT x int 4 1000
+INSERT sum float 4 1004
+INSERT flag char 1 1008
+INSERT count int 4 1012
+DISPLAY
+SEARCH sum
+MODIFY sum double 8 1004
+DELETE flag
+DISPLAY
+EXIT
+

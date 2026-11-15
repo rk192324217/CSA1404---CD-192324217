@@ -1,0 +1,9 @@
+====================================================
+        REPLACE WORD WITH ANOTHER WORD (LEX)        
+====================================================
+Replaced 'language' -> 'compiler' (2 occurrence(s))
+Output written to: output.txt
+----------------------------------------------------
+Updated File Content:
+The compiler parser checks syntax, and the compiler optimizer improves target efficiency.
+----------------------------------------------------

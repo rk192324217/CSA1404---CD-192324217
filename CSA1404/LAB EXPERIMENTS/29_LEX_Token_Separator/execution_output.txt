@@ -1,0 +1,28 @@
+====================================================
+     LEXICAL ANALYZER: C TOKEN SEPARATOR (FLEX)     
+====================================================
+TOKEN                     CAPTION                  
+----------------------------------------------------
+#include<stdio.h>      -> PREPROCESSOR DIRECTIVE
+void                   -> KEYWORD
+main                   -> IDENTIFIER
+(                      -> SEPARATOR / DELIMITER
+)                      -> SEPARATOR / DELIMITER
+{                      -> SEPARATOR / DELIMITER
+int                    -> KEYWORD
+a                      -> IDENTIFIER
+,                      -> SEPARATOR / DELIMITER
+b                      -> IDENTIFIER
+,                      -> SEPARATOR / DELIMITER
+c                      -> IDENTIFIER
+=                      -> OPERATOR
+30                     -> INTEGER CONSTANT
+;                      -> SEPARATOR / DELIMITER
+printf                 -> IDENTIFIER
+(                      -> SEPARATOR / DELIMITER
+"hello"                -> STRING LITERAL
+)                      -> SEPARATOR / DELIMITER
+;                      -> SEPARATOR / DELIMITER
+}                      -> SEPARATOR / DELIMITER
+----------------------------------------------------
+Total Tokens Extracted: 21

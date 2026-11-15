@@ -1,0 +1,14 @@
+====================================================
+        RECURSIVE DESCENT PARSER (LL(1))            
+====================================================
+Grammar:
+  E  -> TE'       E' -> +TE' | eps
+  T  -> FT'       T' -> *FT' | eps
+  F  -> (E) | id
+----------------------------------------------------
+Input: id+id*id               -> ACCEPTED (Valid syntax)
+Input: (id+id)*id             -> ACCEPTED (Valid syntax)
+Input: id*id+id               -> ACCEPTED (Valid syntax)
+Input: id+*id                 -> REJECTED (Syntax error at pos 3)
+Input: (id+id                 -> REJECTED (Syntax error at pos 6)
+----------------------------------------------------

@@ -1,0 +1,10 @@
+====================================================
+          CONSONANT COUNTER IN A SENTENCE           
+====================================================
+Input Text:
+Lexical analysis splits source code into meaningful tokens.
+
+----------------------------------------------------
+Number of Consonants : 31
+Number of Vowels     : 20
+----------------------------------------------------

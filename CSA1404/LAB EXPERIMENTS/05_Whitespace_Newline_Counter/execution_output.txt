@@ -1,0 +1,9 @@
+====================================================
+      WHITESPACE AND NEWLINE CHARACTER COUNTER      
+====================================================
+Spaces ( )          : 18
+Tabs (\t)           : 1
+Newlines (\n)       : 5
+Total Whitespaces   : 24
+Non-whitespace Chars: 44
+----------------------------------------------------

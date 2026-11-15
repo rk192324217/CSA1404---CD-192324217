@@ -1,0 +1,22 @@
+====================================================
+      SEPARATE KEYWORDS AND IDENTIFIERS (LEX)       
+====================================================
+int                -> KEYWORD
+main               -> IDENTIFIER
+float              -> KEYWORD
+avg                -> IDENTIFIER
+total_sum          -> IDENTIFIER
+while              -> KEYWORD
+avg                -> IDENTIFIER
+for                -> KEYWORD
+int                -> KEYWORD
+i                  -> IDENTIFIER
+i                  -> IDENTIFIER
+i                  -> IDENTIFIER
+total_sum          -> IDENTIFIER
+total_sum          -> IDENTIFIER
+avg                -> IDENTIFIER
+break              -> KEYWORD
+return             -> KEYWORD
+----------------------------------------------------
+Total Keywords: 7 | Total Identifiers: 10
